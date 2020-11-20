@@ -1,2 +1,3 @@
 # HTML-CSS-FUNDAMENTALS
-Project for exercising HTML &amp; CSS
+Project for exercising 
+

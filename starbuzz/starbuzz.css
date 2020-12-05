@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300;700&display=swap');
+* {
+    box-sizing: border-box;
+}
 html {
      scroll-behavior: auto;
 }
@@ -17,6 +20,7 @@ h1 {
     font-size: 1.5em;
     font-family: 'Big Shoulders Stencil Display', cursive;
     font-weight: bold;
+    padding: 1.2em;
 }
 h2 {
     color: rgb(40, 163, 137);
@@ -36,7 +40,7 @@ h3 {
 }
 .pret {
     font-size: 1.2em;
-    color: darkgreen;
+    color: rgb(182, 149, 4);
     font-weight: bold;
 }
 
@@ -51,24 +55,31 @@ a {
 }
 blockquote {
     font-size: 1.3em;
-    color: sienna;
+    color: rgb(233, 239, 241);
     font-style: italic;
-    text-decoration: blanchedalmond;
+    text-align: center;
+    text-decoration: rgb(70, 21, 99);
     text-decoration-style: wavy;
     border-style: dotted;
-    border-radius: 0.5em;
-    padding: 0.5em;
-    margin: 1em;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    width: 60%;
+    border-radius: 20px;
+    padding: 1em 2em;
+    margin: 2em auto 3em auto;
+    width: 25em;
     height: 5em;
-}
+    background-color: rgb(65, 12, 95);
+    border-bottom-color: cyan;
+    border-top-color: cyan;
+
 ul {
     font-family: sans-serif;
     font-size: 1.3em;
     list-style-type: '☕';
 }
+
 .imagine {
     text-align: center;
+}
+
+.primul-cuvant {
+    color: darkmagenta;
 }

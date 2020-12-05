@@ -61,6 +61,8 @@ blockquote {
     margin: 1em;
     margin-top: 2em;
     margin-bottom: 2em;
+    width: 60%;
+    height: 5em;
 }
 ul {
     font-family: sans-serif;

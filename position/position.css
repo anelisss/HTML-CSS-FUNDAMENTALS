@@ -23,10 +23,13 @@ div {
 }
 #c {
     background-color: plum;
-    position: fixed;
+    position: absolute;
+    top: 0;
 }
 #d {
     background-color: violet;
+    position: sticky;
+    top: 4em;
 }
 #parinte {
     width: 10em;

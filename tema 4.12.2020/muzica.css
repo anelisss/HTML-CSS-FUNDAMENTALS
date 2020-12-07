@@ -1,0 +1,15 @@
+h1 {
+    color: rgb(28, 187, 192);
+    font-size: 1.3em;
+    font-family: serif;
+    font-weight: bold;
+}
+
+blockquote {
+    margin-left: auto;
+    font-family: serif;
+}
+
+.artist {
+    font-weight: bold;
+}

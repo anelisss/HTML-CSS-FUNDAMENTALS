@@ -10,6 +10,12 @@ blockquote {
     font-family: serif;
 }
 
+.piesa {
+    font-style: italic;
+}
+
 .artist {
     font-weight: bold;
+    font-family: serif;
+    font-style: normal;
 }

@@ -1,0 +1,23 @@
+input {
+    display: block;
+    margin: 0.2em 0 0.7 0;
+}
+button {
+    display:block;
+    /*schimbam stilul butonului */
+    background-color: aquamarine;
+    border-style: none;
+    padding: 0.5em;
+    color:rgb(126, 223, 218);
+    border-radius: 0.5em;
+    width: 7em;
+    background: linear-gradient(90deg, rgba(36,0,17,1) 0%, rgba(121,9,77,1) 27%, rgba(0,212,255,1) 100%);
+}
+label {
+    font-family: sans-serif;
+    display: block;
+}
+select {
+    display:block;
+    margin-bottom: 0.5em;
+}

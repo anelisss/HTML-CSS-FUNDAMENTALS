@@ -4,11 +4,11 @@ input {
     margin: 1em 0 1em 0;
     background:transparent;
     border: none;
-    border-bottom: 1px solid;
-    color:rgb(238, 223, 223);
+    border-bottom: 2px solid;
+    color:rgba(238, 223, 223, 1);
     font-family: 'Quicksand', sans-serif;
     font-size: 1.1em;
-    
+    opacity: 50%;
 }
 nav {
     font-family: 'Noto Sans JP', sans-serif;

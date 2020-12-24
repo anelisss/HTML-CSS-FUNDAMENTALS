@@ -4,12 +4,13 @@
     padding: 0;
 }
 body {
-    font-family: sans-serif;
+    font-family:serif;
 }
 header {
     background-color: rgb(51, 49, 49);
     color: white;
     text-align: left;
+    position: sticky;
 }
 header li {
     display: inline;
@@ -34,7 +35,7 @@ article ul {
     height: 4em;
     width: 12em;
     position: relative;
-    top: -1em;
+    top: -3em;
     left: 34em;
 }
 h1 {
@@ -42,21 +43,14 @@ h1 {
     margin-bottom: 1em;
     display: inline;
     right: 8em;
-    top: 3em;
+    top: 2.3em;
     left: 13.5em;
     font-size: 2.7em;
     color: white;
 }
 div {
-    background-color: orangered;
+    background-color: rgb(247, 105, 54);
     padding: 1.2em;
-}
-#text {
-    background-color: white;
-    padding: 5em;
-}
-h2 {
-    margin-left: 0.9em;
 }
 input[type="button"] {
     background-color:green;
@@ -68,4 +62,17 @@ input[type="button"] {
     right: 5em;
     top: 4.1em;
     cursor: pointer;
+}
+
+blockquote {
+    background-color: white;
+    padding: 1em;
+    line-height: 1.5em;
+}
+h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 14em;
+    padding-top: 3em;
 }

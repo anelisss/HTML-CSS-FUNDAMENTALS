@@ -1,0 +1,37 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: orange;
+    padding: 0.5em 0;
+    /*pt ca am dat fixed la header, va arata doar cat e continutul. 
+    astfel trb delimitata si latimea. tot 100% din pagina ca sa fie cat ea*/
+    position: fixed;
+    width: 100vw;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end; /*muta continutul listei prin display flex,
+    la sfarsitul paginii, in dreapta*/
+    list-style-type: none; /*scaote bulleturile de la cuvintele din lista*/
+}
+nav ul a {
+    color: white;
+    margin: 0.5em;
+    text-decoration: none;
+}
+/*trebuie centrat article pe mijlocul paginii dar nu merge pe body
+pt ca ar centra tot. astfel il incadram intr-un div cu clasa container*/
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /*containerul e cat continutul ei. trb data inaltime cat fereastra*/
+    height: 100vh; /*100% din inaltimea paginii*/
+    background-image: url(headerback.jpg);
+    background-size: cover;
+}
+

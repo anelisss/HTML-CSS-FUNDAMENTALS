@@ -78,6 +78,7 @@ img:hover {
     transform: rotate(-10deg);
     transform: translate(-20px, -30px);
     transform: scale(1.2);
+    opacity: 1;
 }
 article div {
     display:inline-block;

@@ -11,6 +11,7 @@ header {
     astfel trb delimitata si latimea. tot 100% din pagina ca sa fie cat ea*/
     position: fixed;
     width: 100vw;
+    z-index: 1; /*are val 0 sau 1 in functie de ordinea suprapunerii elementelor*/
 }
 nav ul {
     display: flex;
@@ -33,5 +34,23 @@ pt ca ar centra tot. astfel il incadram intr-un div cu clasa container*/
     height: 100vh; /*100% din inaltimea paginii*/
     background-image: url(headerback.jpg);
     background-size: cover;
+    
 }
+.overlay {
+    width: 100%; /*aici trb si inaltime si latime pt ca e un div gol si ii trb dimensiuni*/
+    height: 100%; /*parintele lui este container, care are height:100vh;
+    si atunci si overlay care e copilul lui, va avea 100vh, dar putem 
+    scrie ca este 100% dimensiunea containerului. ambele variante sunt corecte dar 100%
+    e mai flexibil pt ca daca decidem ca vrem o val mai mica, atunci trb schimbate ambele valori.  */
+    background-color:orange;
+    opacity: 0.3; /*poate avea valoare intre 0-1*/
+    position: absolute; /*daca e relativ, e pe jumatate, daca e absolut, va avea
+    aceeasi dimensiune ca parintele adica container*/
+
+}
+article {
+    z-index: 1; /*continutul de pe article e trecut deasupra div-ului overlay care confera 
+    transparenta*/
+}
+
 

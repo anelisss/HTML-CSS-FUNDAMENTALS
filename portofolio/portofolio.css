@@ -33,7 +33,7 @@ pt ca ar centra tot. astfel il incadram intr-un div cu clasa container*/
     /*containerul e cat continutul ei. trb data inaltime cat fereastra*/
     height: 100vh; /*100% din inaltimea paginii*/
     background-image: url(headerback.jpg);
-    background-size: cover;
+    background-size: cover; /*se extinde imaginea cat dimensiunea paginii*/
     
 }
 .overlay {
@@ -44,13 +44,33 @@ pt ca ar centra tot. astfel il incadram intr-un div cu clasa container*/
     e mai flexibil pt ca daca decidem ca vrem o val mai mica, atunci trb schimbate ambele valori.  */
     background-color:orange;
     opacity: 0.3; /*poate avea valoare intre 0-1*/
-    position: absolute; /*daca e relativ, e pe jumatate, daca e absolut, va avea
-    aceeasi dimensiune ca parintele adica container*/
+    position: absolute;
 
 }
 article {
     z-index: 1; /*continutul de pe article e trecut deasupra div-ului overlay care confera 
     transparenta*/
+}
+
+
+/*mai jos e ex pt exercitiul cu text inafara cutiei*/
+#gray {
+    background-color: gray;
+    color: orangered;
+    z-index: 1;
+    position: absolute; /*apare pe centrul paginii; nu e obligatoriu
+    dar il centreaza si dupa poate fi pozitionat cu em*/
+
+    top: 20%;
+    left: 20%;
+    padding: 0.5em;
+}
+#gray div {
+    position: relative; /*relativ parintelui*/
+    left: 1em;
+    top: 1em;
+    /*sau cu transform: translate(1em, 1em)
+    sau cu flex*/
 }
 
 

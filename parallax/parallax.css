@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1.3em;
+}
+#parallax, #parallax2, #text {
+    background-image: url(michiel-annaert-tGFBtI8F3wA-unsplash.jpg);
+    background-size: cover;
+    height: 75vh;
+    background-attachment: fixed;
+}

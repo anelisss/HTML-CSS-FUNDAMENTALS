@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    perspective: 6px;
+}
+#back {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    transform: translateZ(0px); /*cat de in spate este background img*/
+}
+#front {
+    position: absolute;
+    top: 70vh;
+    left: 40vw;
+    transform: translateZ(3px); /*cat de in fata este h1*/
+}
+h1 {
+    color:yellowgreen;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
